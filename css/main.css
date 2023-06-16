@@ -47,8 +47,8 @@ h1 {
 
 .copyright {
     margin-top: 30px;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
 }
 
 .container-main {
@@ -65,16 +65,8 @@ h1 {
     bottom: 0;
     width: 100%;
     height: 2.5rem;
+	max-width: 75vw;
 }
-
-@media screen and (max-width: 410px) {
-	.footer {
-		position: relative !important;
-	}	
-}
-	
-
-
 
 b {
     font-weight: 600;
