@@ -67,7 +67,27 @@ h1 {
     height: 2.5rem;
 }
 
+@media screen and (max-width: 410px) {
+	.footer {
+		position: relative !important;
+	}	
+}
+	
+
+
+
 b {
     font-weight: 600;
 }
 
+.navbar {
+	padding: 0;
+}
+
+.kontakt-dugmici .btn {
+	margin-bottom: 5px;
+}
+
+.kontakt-dugmici {
+	margin-bottom: 20px;
+}
